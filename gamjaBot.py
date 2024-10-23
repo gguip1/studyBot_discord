@@ -16,8 +16,8 @@ intents.message_content = True
 intents.voice_states = True
 client = commands.Bot(command_prefix="/", intents=intents)
 
-study_channel_id = 1040912827923316760
-report_channel_id = 1040912827923316760
+study_channel_id = None
+report_channel_id = None
 user_entry_times = {}
 
 
